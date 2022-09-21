@@ -1,0 +1,53 @@
+.kanbanColumn {
+    width: 250px;
+    height: 100%;
+    min-height: 250px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-image: linear-gradient( 135deg, #EE9AE5 10%, #5961F9 100%);
+    border: #333333 solid 1px;
+    margin-top:30px;
+    &__name{
+        margin:0 auto;
+        width:80%;
+        color: white;
+        font-size: 20px;
+        margin-top:13px;
+        letter-spacing: 0.1rem;
+    }
+    &__numbers{
+        margin-top:5px;
+        color: white;
+        font-size: 15px;
+    }
+    &__tasks-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    &__footer{
+        margin:30px 0 10px 0;
+    }
+    &__btn-add{
+        width:100px;
+        height:30px;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .5s;
+        &:hover{
+            background-color: #EE9AE5;
+            color:#ffffff;
+        }
+    }
+
+}
+
+
