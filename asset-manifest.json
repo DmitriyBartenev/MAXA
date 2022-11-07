@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MAXA-test-app/static/css/main.99d0ea08.css",
+    "main.js": "/MAXA-test-app/static/js/main.adbf01ab.js",
+    "index.html": "/MAXA-test-app/index.html",
+    "main.99d0ea08.css.map": "/MAXA-test-app/static/css/main.99d0ea08.css.map",
+    "main.adbf01ab.js.map": "/MAXA-test-app/static/js/main.adbf01ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99d0ea08.css",
+    "static/js/main.adbf01ab.js"
+  ]
+}
